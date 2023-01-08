@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+<head>
+    {{> head/head head.defaults}}
+</head>
+<body class="page" style="visibility: hidden;opacity: 0;">
+    %=symbols=%
+
+
+    <div class="thanxp">
+        <div class="popup popup-thanx modal1 active">
+            
+            <div class="modal1__title">
+                Спасибо, ваша заявка отправлена!
+            </div>
+            <div class="modal1__bot">
+                <p>
+                    Долго ждать? <br>
+                    Пишите на whatsapp прямо сейчас:
+                </p>
+                <a href="https://wa.me/79539237416" class="modal1__bot-num">
+                    {{Icon iconName='wa'}}
+                    <p>+7 (953) 923-74-16</p>
+                </a>
+                <a class="green-btn" href="index.html">
+                    Готово
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    {{> scripts/scripts}}
+
+
+</body>
+</html>
